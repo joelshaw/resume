@@ -4,11 +4,11 @@ import { BrowserRouter } from 'react-router-dom';
 
 import styles from './styles/Styles.css';
 
-import Resume from './components/Resume.jsx';
+import App from './containers/App.jsx';
 
 const RoutedApp = () => (
     <BrowserRouter>
-        <Resume />
+        <App />
     </BrowserRouter>
 );
 

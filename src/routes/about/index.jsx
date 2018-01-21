@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Intro from '../../components/Intro.jsx'
+import Intro from '../../containers/Intro.jsx'
 
 export default class About extends Component {
     render(){
@@ -8,7 +8,9 @@ export default class About extends Component {
             <div className="about">
                 <div className="container">
                     <Intro />
-                    <h1>About</h1>
+                    <div className="content-brick">
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima impedit cumque dolorum veniam incidunt tempore laudantium repudiandae est praesentium possimus sunt placeat esse sequi provident iusto aperiam, officia ex natus!</p>
+                    </div>
                 </div>
             </div>
         );

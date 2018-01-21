@@ -3,11 +3,11 @@ import { Link } from 'react-router-dom';
 
 const Navigation = props => (
     <div className="navigation">
-        <div className="container">
-            <nav className="navigation__links">
-                <Link className="navigation__links-item" to="/contact">Contact</Link>
-            </nav>
-        </div>
+        <nav className="navigation__links">
+            <Link className="navigation__links-item" to="/">About</Link>
+            <Link className="navigation__links-item" to="/photos">Photography</Link>
+            <Link className="navigation__links-item" to="/contact">Contact</Link>
+        </nav>
     </div>
 );
 
