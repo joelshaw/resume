@@ -13,6 +13,11 @@ module.exports = {
         path: path.resolve('dist'),
         filename: 'index.js'
     },
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 3000
+    },
     module: {
         loaders: [
             {test: /\.js$/, loader: 'babel-loader', exclude: '/node_modules/'},
