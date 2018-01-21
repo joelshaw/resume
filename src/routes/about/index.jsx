@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 
-import Intro from '../../containers/Intro.jsx'
+import Intro from '../../containers/Intro.jsx';
+import Bio from '../../containers/Bio.jsx';
+import Resume from '../../containers/Resume.jsx';
 
 export default class About extends Component {
     render(){
@@ -8,9 +10,8 @@ export default class About extends Component {
             <div className="about">
                 <div className="container">
                     <Intro />
-                    <div className="content-brick">
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima impedit cumque dolorum veniam incidunt tempore laudantium repudiandae est praesentium possimus sunt placeat esse sequi provident iusto aperiam, officia ex natus!</p>
-                    </div>
+                    <Bio />
+                    <Resume />
                 </div>
             </div>
         );
